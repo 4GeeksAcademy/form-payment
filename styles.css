@@ -1,0 +1,109 @@
+body{
+    background: none;
+}
+.container{
+    width: 700px;
+    height:400px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    border: 1px solid gray;
+    font-family: "Gill Sans", sans-serif;
+}
+.message-error{
+    width: 675px;
+    height: 25px;
+    background:pink;
+    margin: auto;
+    margin-top: -15px;
+    border-radius: 3px;
+}
+.form-header{
+    width: 700px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    border: 1px solid gray;
+    background: gainsboro;
+}
+
+.form-container{
+    width: 700px;
+    height: 300;
+    display: grid;
+    margin-top: ;
+}
+h2{
+    padding-left: 10px;
+    margin-top: -1px;
+}
+
+.form-footer{
+    width: 700px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    margin-top: 275px;
+    border: 1px solid gray;
+    background: gainsboro;
+    
+}
+
+h6{
+    color:brown;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.cancel{
+    background: rgb(124, 131, 164) ;
+    color: white;
+    border: none;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 1.75px;
+    border-radius: 2px;
+   margin-left: 550px;
+   font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+}
+.send{
+    background: rgb(16, 51, 225) ;
+    color: rgb(220, 220, 220);
+    border: none;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 1.75px;
+    border-radius: 2px;
+    margin-left: 10px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+}
+.card-number{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 12px;
+   
+}
+.cvc-number{
+    margin-top: -39px;
+    padding-left: 250px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 12px;
+    
+}
+
+.amount{
+    margin-top: -39px;
+    padding-left: 500px;
+    width: 70%;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 12px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }

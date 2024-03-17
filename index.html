@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>HTML5-Form</Form></title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-header">
+        <h2>Payment form example</h2>
+       </div>
+       <div class="form-container">
+        <form method="post" action="index.html">
+            <label></label>
+          <div class="message-error">
+            <h6>Some fields are missing</h6>
+          </div>
+
+          <div class="card-number">
+            <label >Card #</label><br>
+          <input type="number" placeholder="xxxxxxxxxxxxxxxx" required/><br/>
+          </div>
+
+          <div class="cvc-number">
+            <label >CVC #</label><br>
+          <input type="number" placeholder="0000" required/><br/>
+          </div>
+
+          <div class="amount">
+            <label >Amount</label><br>
+         <label>$</label> <input type="number" placeholder="Amount" required/><br/>
+          </div>
+          
+          
+
+
+          <div class="form-footer">
+            <button type="reset" class="cancel">Cancel</button>
+            <button type="submit" class="send">Send</button>
+          </div>
+        </form>
+       </div>
+       
+
+  </div>
+</body>
+</html>
